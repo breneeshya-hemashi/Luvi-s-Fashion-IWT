@@ -1,0 +1,390 @@
+.test {
+    height: 35px;
+    width: 50px;
+}
+
+.test2 {
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.test3 {
+    height: 80px;
+    width: 600px;
+    font-size: 15px;
+    right: 500;
+}
+
+.vl {
+    border-left: 3px solid black;
+    height: 730px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 120px;
+}
+
+
+/*.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    padding-top: 0px;
+
+}*/
+
+.left {
+    left: 40;
+}
+
+.left1 {
+    position: absolute;
+    right: 70%;
+    width: 25%;
+    height: 18%;
+    top: 140px;
+}
+
+.right {
+    right: -40;
+}
+
+.right2 {
+    right: -350;
+    top: 290;
+}
+
+.br1 {
+    margin-top: 150;
+}
+
+.br2 {
+    margin-top: 70;
+}
+
+.pdn {
+    padding-left: 200px;
+}
+
+.mgn {
+    margin-left: 9cm;
+    font-size: 20px;
+    margin-top: 100;
+}
+
+.cpncd {
+    top: -600;
+    right: 9cm;
+}
+
+.right1 {
+    position: absolute;
+    right: 10%;
+    width: 25%;
+    height: 18%;
+    top: 140px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Fading animation */
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* headerpage */
+
+#header {
+    width: 100%;
+    height: 100px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header .logo {
+    width: 15%;
+    height: 100px;
+    /* background-color: aqua; */
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#header .navigation {
+    width: 65%;
+    height: 100px;
+    /* background-color: rgb(21, 70, 70); */
+}
+
+#header .navigation .nav_main {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header .navigation .nav_main .nav {
+    width: 16.6%;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#header .navigation .nav_main .nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#header .icon {
+    width: 20%;
+    height: 100px;
+    /* background-color: rgb(59, 182, 182); */
+}
+
+#header .icon .icon_div_main {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header .icon .icon_div_main .icon_div1 {
+    width: 33.3%;
+    height: 50px;
+    background-image: url("../images/search.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+#header .icon .icon_div_main .icon_div2 {
+    width: 33.3%;
+    height: 50px;
+    background-image: url("../images/cart.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+#header .icon .icon_div_main .icon_div3 {
+    width: 33.3%;
+    height: 50px;
+    background-image: url("../images/person.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+
+/* headerpage */
+
+
+/* footerpage */
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(22, 24, 24);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+#footer .div {
+    width: 25%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 2%;
+    color: white;
+}
+
+#footer .div .d1 {
+    width: 100%;
+    height: 70%;
+}
+
+#footer .div .d2 {
+    width: 100%;
+    height: 30%;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer .div .d2 .sub {
+    width: 25%;
+    height: 100%;
+    /* background-color: aliceblue; */
+}
+
+#footer .div .d2 .sub img {
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer .div h3 {
+    color: rgb(233, 233, 88);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* userProfile */
+
+.dropdown1 {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown1 .dropbtn1 {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.dropdown1:hover .dropbtn1 {
+    background-color: none;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 20px;
+}
+
+.dropdown-content1 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 20px;
+}
+
+.dropdown-content1 a:hover {
+    background-color: #ddd;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown-content1 input {
+    width: 230px;
+    height: 30px;
+    margin-top: 5px;
+}
